@@ -26,7 +26,10 @@ Select the largest time period on your main Girokonto (3 years) and export it al
 
 ![csv Export](csv_export_DKB.png)
 
-### 2. Save under `<my-name>.csv`
+NOTE: There is a bug (?) in the DKB webinterface where the CSV only returns at most 500 bookings - regardless of how long of a time period you pick.
+I've contacted them and asked them to fix this.
+
+### 2. Save under `export.csv`
 
 ### 3. `jupyter lab DKB-Kontoauszug-Visualizer.ipynb`
 
